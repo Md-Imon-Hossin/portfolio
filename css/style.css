@@ -62,5 +62,8 @@ align-items: center;}
     padding: 5px 20px;
     font-size: 14px;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 5px;
+}
+.projects-design p{
+    font-size: 14px;
 }
