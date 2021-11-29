@@ -7,15 +7,21 @@
 /* Resume Button */
 .resume-button{
     background-color: rgb(47, 89, 126);
+    /* background-color: #081158; */
     border-radius: 10px;
+    transition: 0.4s;
+}
+.resume-button:hover{
+    background-color: #fff;
+    color: #000 !important;
 }
 /* Projects */
-.projects h1{
-    color: rgb(47, 89, 126)
+ .projects h1{
+    color: #081158;
 }
 .projects p{
     text-align: justify;
-}
+} */
 /* Portfolio */
 .portfolio{
     margin-right: 40% ;
@@ -27,5 +33,34 @@
  }
  /*  Contact */
  .contact-title{
-     color: rgb(47, 89, 126);
+    color: #081158;
  }
+ .contact-radius{
+     border-radius: 12px;
+ }
+ /* Details */ 
+.details{
+display: flex; 
+align-items: center;}
+.details p{
+    text-align: justify;
+}
+.details h3{
+    color: #081158;
+    font-weight:bold;
+
+}
+.projects-design{
+    border: 1px solid #ddd; 
+    padding: 10px;
+    border-radius: 6px;
+}
+.projects-design a{
+    text-decoration: none;
+    background-color: #081158;
+    color: #fbb244;
+    padding: 5px 20px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 20px;
+}
