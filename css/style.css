@@ -7,7 +7,6 @@
 /* Resume Button */
 .resume-button{
     background-color: rgb(47, 89, 126);
-    /* background-color: #081158; */
     border-radius: 10px;
     transition: 0.4s;
 }
@@ -18,6 +17,7 @@
 /* Projects */
  .projects h1{
     color: #081158;
+    font-weight: bold;
 }
 .projects p{
     text-align: justify;
@@ -34,6 +34,7 @@
  /*  Contact */
  .contact-title{
     color: #081158;
+    font-weight: bold;
  }
  .contact-radius{
      border-radius: 12px;
@@ -66,4 +67,14 @@ align-items: center;}
 }
 .projects-design p{
     font-size: 14px;
+}
+.about h2{
+    color: #081158;
+    font-weight: bold;
+}
+.about p{
+    line-height: 1.7em;
+}
+.about h5{
+    margin: 15px;
 }
