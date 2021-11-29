@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css//style.css">
+    <title>My Portfolio</title>
+  </head>
+  <body>
+     <!-- Start Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+      <div class="container">
+        <h2 class="text-white portfolio">Portfolio</h2>
+        <!-- <a class="navbar-brand text-white" href="#">Portfolio</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-lg-auto">
+            <li class="nav-item ">
+              <a class="nav-link  active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white resume-button" target="_blank" href="https://drive.google.com/file/d/1unks6IiHQeB_KFIPiWvtlPU6ZuVckKhl/view?usp=sharing">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+     <!-- End Navbar -->
+
+    <!-- Start Latest Projects -->
+    <section>
+      <h2 class="text-center mt-3">Latest projects</h2>
+      <div class="py-4 projects">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4">
+              <h5 class="text-center">Sunglass Store</h5>
+              <img src="./img/portfolio-1.png" class="img-fluid" alt="">
+              <p class="mt-2">This website has many products and review section.
+                Clicking on the buy now button of the home page product will take you to the purchase page.
+               And this page will be private route if you are not logged in then you have to login and then go.
+                If the user is logged in the dashboard name will be able to see a link. And after logging in, you
+               will be able to see many links.
+
+             </p>
+            </div>
+            <div class="col-xl-4">
+              <h5 class="text-center">Water Boom</h5>
+              <img src="./img/portfolio-2.png" class="img-fluid" alt="">
+              <p class="mt-2">Clicking on the buy now in the service section of the home page will take you to the login once
+                logged in will take you to the order place page. And if you want to order it will take you to the
+                order page.
+                 Loading the service data of the home page from the database.
+                 If a user is logged in he will see more options like My Orders, Manage All Orders, Add A New
+                Service, Logout.</p>
+            </div>
+            <div class="col-xl-4">
+              <h5 class="text-center">Honda Cbr</h5>
+              <img class="img-fluid" src="./img/screencapture-stoic-hodgkin-92b2c2-netlify-app-2021-11-29-11_40_48.png" alt="">
+              <p class="mt-2">The companies decided to part their ways from the Joint Venture with their own plans for the Indian and International Market. Honda decided to part amicably by providing technological support to hero till 2014 and sold its 26% stake to the Munjal Family. Whereas, Hero paid Honda Royalties for its service.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- End Latest Projects -->
+
+    <!-- Start Contact Form -->
+    <section class="mt-3" id="contact">
+      <div class="pb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-2">
+              
+            </div>
+            <div class="col-xl-8">
+              <h2 class="text-center mb-4">Please fill out this form to contact us
+              </h2>
+              <form action="">
+                <div>
+                  <div class="row mb-3">
+                    <div class="col-xl-6">
+                      <input type="text" class="form-control form-control-lg mb-3" placeholder="First Name">
+                    </div>
+                    <div class="col-xl-6">
+                      <input type="text" class="form-control form-control-lg " placeholder="Last Name">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-xl-6">
+                      <input type="email" class="form-control form-control-lg mb-3" placeholder="Email">
+                    </div>
+                    <div class="col-xl-6">
+                      <input type="number" class="form-control form-control-lg" placeholder="Phone Number">
+                    </div>
+                  </div>
+                  <div class="row">
+                    
+                    <div class="col">
+                      <textarea placeholder="Message" name="" class="form-control-lg form-control" id="" cols="30" rows="10"></textarea>
+                    </div>
+                
+                </div>
+                <div class="text-center mt-3">
+                  <button class="btn btn-warning " type="submit">Submit</button>
+                </div>
+                
+              </div>
+              </form>
+            </div>
+            <div class="col-xl-2">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Form -->
+
+
+    <!-- Start Footer -->
+    <div class="bg-dark py-1">
+      <p class="text-center text-white mt-2">© 2021 All Rights Reserved.</p>
+    </div>
+    <!-- End Footer -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
