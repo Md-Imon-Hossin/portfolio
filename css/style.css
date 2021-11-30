@@ -23,13 +23,10 @@
     text-align: justify;
 } */
 /* Portfolio */
-.portfolio{
-    margin-right: 40% ;
-}
+
 /* Navbar */
  .navbar ul li a {
      display: inline-block; 
-     margin-right: 15px;
  }
  /*  Contact */
  .contact-title{
@@ -77,4 +74,25 @@ align-items: center;}
 }
 .about h5{
     margin: 15px;
+}
+.btn-submit button{
+    background-color: rgb(47, 89, 126); 
+    color: #fff;
+}
+.nazmul-text{
+    margin-right: 25%;
+}
+.explore-1{
+    border: 1px solid #000;
+    padding: 12px;
+    border-radius: 6px;
+    height: 100%;
+}
+.explore-design{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #081158; 
+    color: #fbb244;
+    padding: 5px 15px;
+    border-radius: 6px;
 }
