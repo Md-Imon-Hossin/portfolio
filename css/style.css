@@ -78,6 +78,11 @@ align-items: center;}
 .btn-submit button{
     background-color: rgb(47, 89, 126); 
     color: #fff;
+    transition: 0.4s;
+}
+.btn-submit button:hover{
+    background-color: green; 
+    color: #fff;
 }
 .nazmul-text{
     margin-right: 25%;
@@ -95,4 +100,39 @@ align-items: center;}
     color: #fbb244;
     padding: 5px 15px;
     border-radius: 6px;
+    transition: 0.4s;
 }
+.projects-design img{
+    transition: 0.4s;
+    border-radius: 6px;
+}
+.projects-design img:hover{
+    transform: scale(1.1);
+}
+.explore-1 img{
+    border-radius: 6px;
+    transition: 0.4s;
+}
+.explore-1 img:hover{
+    transform: scale(1.1);
+
+    
+}
+.explore-design:hover{
+    background-color: turquoise;
+    color: #000;
+}
+.view{
+    transition: 0.2s;
+}
+.view:hover{
+    background-color: rgb(47, 89, 126);
+    color: #fff;
+}
+.explore-btn{
+    transition: 0.2s;
+}
+.explore-btn:hover{
+    background-color: royalblue;
+    color: #fff;
+ }
